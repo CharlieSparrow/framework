@@ -9,8 +9,28 @@
     box-sizing: border-box;
 }
 
-* {
-    font-family: 'Raleway', sans-serif;
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 52px;
+}
+body {
+    margin:0px;
+}
+
+#head {
+    max-height: 150px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.name {
+    height:120px;
+}
+
+.title{
+    height:30px;
 }
 
 .grid {
@@ -18,14 +38,9 @@
     max-width: 1200px;
     width: 100%;
 }
-.row p {
-    padding:10px;
-    
-}
 
 .row {
     width: 100%;
-    margin-bottom: 20px;
     display: flex;
 }
 
@@ -76,8 +91,4 @@
 .col-12 {
     width: 100%;
 }
-@media only screen and (max-width: 500px){
-    p{
-        display: none;
-    }
-}
+
